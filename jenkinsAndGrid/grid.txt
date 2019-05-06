@@ -1,0 +1,14 @@
+Hub->
+java -Dwebdriver.gecko.driver=C:\Users\shmo\ssp\grid\geckodriver.exe -Dwebdriver.chrome.driver=C:\Users\shmo\ssp\grid\chromedriver.exe -jar selenium-server-standalone-3.14.0.jar -role hub -hubConfig hub.json
+
+Node 1->
+java -Dwebdriver.gecko.driver=C:\Users\shmo\ssp\grid\geckodriver.exe -Dwebdriver.chrome.driver=C:\Users\shmo\ssp\grid\chromedriver.exe -jar selenium-server-standalone-3.14.0.jar -role node -nodeConfig node1.json
+
+Node 2->
+java -Dwebdriver.gecko.driver=C:\Users\shmo\ssp\grid\geckodriver.exe -Dwebdriver.chrome.driver=C:\Users\shmo\ssp\grid\chromedriver.exe -jar selenium-server-standalone-3.14.0.jar -role node  -nodeConfig node2.json
+
+
+
+
+
+

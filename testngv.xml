@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" preserve-order="true" parallel="tests"
+	thread-count="6">
+	
+	 <listeners>
+      <!-- <listener class-name="com.skidata.customListener.Listener"></listener>-->
+       <!-- <listener class-name="com.skidata.customListener.RetryListener"></listener>-->
+    </listeners>
+	
+	<test name="Home page">
+		<packages>
+			<package
+				name="com.skidata.ssp.portal.homepage" />
+		</packages>
+	</test> 
+	
+	<test name="Product list page">
+		<packages>
+			<package
+				name="com.skidata.ssp.portal.productslistpage" />
+		</packages>
+	</test> 
+	
+	
+		<test name="Shopping Cart page">
+		<packages>
+			<package
+				name="com.skidata.ssp.portal.shoppingcartpage" />
+		</packages>
+	</test> 
+	
+	
+	<test name="Checkout page - Reservations - Annonymous">
+		<packages>
+			<package
+				name="com.skidata.ssp.portal.checkoutpage.anonymous.reservations" />
+		</packages>
+	</test> 
+	
+	
+	<test name="Checkout page - Subscriptions - PPU">
+		<packages>
+			<package
+				name="com.skidata.ssp.portal.checkoutpage.flatfee" />
+		</packages>
+	</test> 
+	
+	
+	<test name="Checkout page - Reservations - Logged in User">
+		<packages>
+			<package
+				name="com.skidata.ssp.portal.checkoutpage.registered" />
+		</packages>
+	</test> 
+	
+	
+	<test name="Checkout page - Subscriptions">
+		<packages>
+			<package
+				name="com.skidata.ssp.portal.checkoutpage.subscriptions" />
+		</packages>
+	</test> 
+	
+	<test name="Confirmation page - Reservations - Annonymous">
+		<packages>
+			<package
+				name="com.skidata.ssp.portal.confirmationpage.annonymous.reservations" />
+		</packages>
+	</test> 
+	
+	
+	<test name="Confirmation page - Reservations - Registered">
+		<packages>
+			<package
+				name="com.skidata.ssp.portal.confirmationpage.registered" />
+		</packages>
+	</test> 
+	
+	<test name="Confirmation page - Subscriptions">
+		<packages>
+			<package
+				name="com.skidata.ssp.portal.confirmationpage.subscriptions" />
+		</packages>
+	</test> 
+	
+	<test name="Address page">
+		<packages>
+			<package
+				name="com.skidata.ssp.portal.addresspage" />
+		</packages>
+	</test> 
+	
+	
+	<test name="Dashboard page">
+		<packages>
+			<package
+				name="com.skidata.ssp.portal.dashboard" />
+		</packages>
+	</test> 
+	
+	<test name="Identifications page">
+		<packages>
+			<package
+				name="com.skidata.ssp.portal.identifications" />
+		</packages>
+	</test> 
+	
+	<test name="Login and Securtiy page">
+		<packages>
+			<package
+				name="com.skidata.ssp.portal.loginandsecurity" />
+		</packages>
+	</test> 
+	
+	<test name="Login page">
+		<packages>
+			<package
+				name="com.skidata.ssp.portal.loginpage" />
+		</packages>
+	</test> 
+	
+	<test name="Logout page">
+		<packages>
+			<package
+				name="com.skidata.ssp.portal.logout" />
+		</packages>
+	</test> 
+	
+	<test name="Reset password page">
+		<packages>
+			<package
+				name="com.skidata.ssp.portal.resetpassword" />
+		</packages>
+	</test>
+	
+	<test name="Sign up page">
+		<packages>
+			<package
+				name="com.skidata.ssp.portal.signuppage" />
+		</packages>
+	</test>
+	
+	<test name="End to End anonymous Reservations">
+		<packages>
+			<package
+				name="com.skidata.ssp.portal.endtoend.anonymous.reservations" />
+		</packages>
+	</test>
+	
+	<test name="End to End Registered Reservations">
+		<packages>
+			<package
+				name="com.skidata.ssp.portal.endtoend.registered" />
+		</packages>
+	</test>
+	
+	<test name="End to End Subscriptions">
+		<packages>
+			<package
+				name="com.skidata.ssp.portal.endtoend.subscriptions" />
+		</packages>
+	</test>
+	
+
+</suite> 

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test-class Suite" parallel="tests" thread-count="15" >
+  <test name="Test-class test" >
+    <packages>
+    <package name="com.skidata.ssp.portal.e2e"></package>
+    </packages>
+  </test>
+  
+  <test name="Test-class test2" >
+    <packages>
+    <package name="com.skidata.ssp.portal.e2e"></package>
+    </packages>
+  </test>
+  
+  
+  <test name="Test-class test3" >
+    <packages>
+    <package name="com.skidata.ssp.portal.e2e"></package>
+    </packages>
+  </test>
+  
+  <test name="Test-class test4" >
+    <packages>
+    <package name="com.skidata.ssp.portal.e2e"></package>
+    </packages>
+  </test>
+  
+   <test name="Test-class test5" >
+    <packages>
+    <package name="com.skidata.ssp.portal.e2e"></package>
+    </packages>
+  </test>
+  
+  <test name="Test-class test6" >
+    <packages>
+    <package name="com.skidata.ssp.portal.e2e"></package>
+    </packages>
+  </test>
+  
+  <test name="Test-class test7" >
+    <packages>
+    <package name="com.skidata.ssp.portal.e2e"></package>
+    </packages>
+  </test>
+</suite>

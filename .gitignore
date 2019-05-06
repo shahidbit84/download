@@ -1,0 +1,17 @@
+extentreports/screenshots/*.png
+extentreports/*.html
+test-output/
+target/
+.classpath
+.project
+automation.out
+.settings/org.eclipse.jdt.core.prefs
+.settings/org.eclipse.m2e.core.prefs
+*.html
+.idea/vcs.xml
+.idea/workspace.xml
+.idea/misc.xml
+.idea/compiler.xml
+.idea/.name
+debug.log
+pom.xml.rej

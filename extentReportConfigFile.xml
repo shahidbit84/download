@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <!-- report theme -->
+        <!-- standard, dark -->
+        <theme>standard</theme>
+
+        <!-- document encoding -->
+        <!-- defaults to UTF-8 -->
+        <encoding>UTF-8</encoding>
+
+        <!-- protocol for script and stylesheets -->
+        <!-- defaults to https -->
+        <protocol>https</protocol>
+
+        <!-- title of the document -->
+        <documentTitle>SKIDATA AUTOMATION</documentTitle>
+
+        <!-- report name - displayed at top-nav -->
+        <reportName>Test Execution Report</reportName>
+        
+        <!-- report name - displayed at top-nav -->
+        <reportName>
+            <![CDATA[
+                <img class="ski-logo" src='skidataLogo/logo.png' />
+                <img class="ski-bird" src='skidataLogo/Preview.png' />
+            ]]>
+        </reportName>
+        
+        <!-- global date format override -->
+    	<!-- defaults to yyyy-MM-dd -->
+   		<dateFormat>dd-MM-yyyy</dateFormat>
+    
+   	 	<!-- global time format override -->
+    	<!-- defaults to HH:mm:ss -->
+    	<timeFormat>HH:mm:ss</timeFormat>
+
+        <!-- location of charts in the test view -->
+        <!-- top, bottom -->
+        <testViewChartLocation>bottom</testViewChartLocation>
+
+        <!-- custom javascript -->
+        <scripts>
+            <![CDATA[
+                $(document).ready(function() {
+                    
+                });
+            ]]>
+        </scripts>
+        
+        <!-- custom javascript -->
+         <scripts>
+         
+          <![CDATA[
+           $(document).ready(function() { 
+          $(".logo-content").hide(); 
+          $(".logo-container").html("SKDIATA" ); 
+          }); 
+          
+          ]]> 
+          
+          </scripts>
+
+       <!-- custom styles -->
+        <styles>
+            <![CDATA[
+               .report-name {
+                 margin:-3px 0 0 102px;
+                 padding:0;
+               }
+               .report-name .ski-logo {
+                  float: left;
+    			  height: 49px;
+                  margin-top: 2px;
+                  width: auto;
+                  padding: 2px 0px 1px 3px;
+               }
+               
+               .report-name .ski-bird {
+                  float: left;
+    			  height: 49px;
+                  margin-top: 2px;
+                  width: auto;
+                  padding: 2px 0 1px 0px
+               }
+            ]]>
+            
+            .logo-container, .blue.darken-2{
+            	background-color: #29323c !important;
+   				color: #41b2db !important;
+    			float: left;
+    			font-weight: bold;
+    			padding: 0 0.3rem !important;
+    			text-transform: capitalize;
+    			width: auto;
+    			border-bottom: 1px solid rgba(255, 255, 255, 0.15) !important;
+    			border-right: 1px solid rgba(255, 255, 255, 0.15) !important;
+            }
+            
+        </styles>
+    </configuration>
+</extentreports>

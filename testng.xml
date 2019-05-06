@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" preserve-order="true" parallel="tests"
+	thread-count="1">
+	
+	 <listeners>
+      <!-- <listener class-name="com.skidata.customListener.Listener"></listener>-->
+       <!-- <listener class-name="com.skidata.customListener.RetryListener"></listener>-->
+    </listeners>
+ 
+	<test name="Home Page">
+		<packages>
+			<package
+				name="com.skidata.ssp.portal.homepage.copy" />
+		</packages>
+	</test> 
+	
+	
+	
+
+</suite> 
